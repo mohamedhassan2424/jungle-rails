@@ -71,6 +71,19 @@ describe "name validiations" do
       expect(@product).to be_invalid
     end
   end
+  describe "initial example, providing a value to all properties in product" do
+    it "given a value to all properties in product and checking if it saved" do
+      @product = Product.new
+      @category = Category.new
+      @product.category = @category
+      @product.price_cents = 3000
+      @product.quantity = 4
+      @product.name = "Mohamed Hassan"
+      @product.save
+     
+      expect(@product).to be_valid
+    end 
+  end
   describe "quantity validiations" do
     it "quantity provided" do 
       @product = Product.new
@@ -95,6 +108,7 @@ describe "name validiations" do
       error_message = @product.errors.full_messages[0]
       puts "____________ #{error_message} "
       expect(error_message).to eq("Quantity can't be blank")
+
       expect(@product).to be_invalid
     end
   end
