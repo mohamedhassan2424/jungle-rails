@@ -15,9 +15,9 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 8. Run `bin/rails s -b 0.0.0.0` to start the server
 
 ## Final Setup
-!["MAIN PAGE"]()
-!["PRODUCT PAGE"]()
-!["Sample Plants"]()
+!["MAIN PAGE"](https://github.com/mohamedhassan2424/jungle-rails/blob/master/Images/Screenshot%202022-10-27%20at%209.17.41%20AM.png)
+!["PRODUCT PAGE"](https://github.com/mohamedhassan2424/jungle-rails/blob/master/Images/Screenshot%202022-10-27%20at%209.18.07%20AM.png)
+!["Sample Plants"](https://github.com/mohamedhassan2424/jungle-rails/blob/master/Images/Screenshot%202022-10-27%20at%209.18.15%20AM.png)
 
 ## Database
 
